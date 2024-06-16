@@ -82,9 +82,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 | Battery (x2) | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 
 # Other Resources/Examples
-- [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
-- [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
-- [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
+- [My GitHub with a few schematics from 2019](https://github.com/T3rry-W/BSE2019)
 
 # Starter Project: Temperature Sensor Display
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wkpTRRvu_wk?si=yXcstMhYHB4B3w3G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

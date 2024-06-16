@@ -8,6 +8,11 @@ The IR Line Following Car is a RC car retrofitted with two IR sensors to detect 
 | Terry W | Bellarmine College Preparatory | Mechanical Engineering and Computer Science | Rising Sophomore
 
 ![Headstone Image](img_2479.jpg)
+
+# Bonus: Reflection and Demo Night
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YhFRTvm5hH0?si=2fnlI6oegThNSuZw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Overall, I would say my experience at BlueStamp was awesome, and couldn’t have been better. BlueStamp taught me to improve my time management, as I had to effectively manage my time throughout the six weeks. BlueStamp also taught me to improve my work ethic, such as organizing all my parts, and working efficiently. The mentors really pushed me to learn on my own. I had a lot of fun learning about various electronic components, interacting with my peers, and making new friends along the way. I would definitely like to thank my mentors in the room, Asher, Rish, Skye, and Eduardo. Couldn’t have done it without them!
   
 # Final Milestone
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZLZ4DCxbuR8?si=dkZ0WlbfLeV8Oz4e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

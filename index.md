@@ -1,15 +1,13 @@
 # IR Line Following Car
 The IR Line Following Car is a RC car retrofitted with two IR sensors to detect and follow a line. The car is also implemented with various modes such as a regular remote control mode and an obstacle avoidance mode. 
 
-6/15/2024: With the BlueStamp portfolios being on GitHub pages now (which are easier to edit compared to the previous use of WordPress), I remade my portfolio on here. Original can be found here [here](https://projects.bluestampengineering.com/student-projects/terry-w/). Some minor tweaks/additions were made but most of it has been copied and pasted.
+6/15/2024: With the BlueStamp portfolios being on GitHub pages now (which are easier to edit compared to the previous use of WordPress), I remade my portfolio on here. Original can be found here [here](https://projects.bluestampengineering.com/student-projects/terry-w/). Some minor tweaks/additions were made but most of it has been copied and pasted. Some formatting inconsistencies exist because the content back in 2019 was different from now.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | Terry W | Bellarmine College Preparatory | Mechanical Engineering and Computer Science | Rising Sophomore
 
-**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
-
-![Headstone Image](logo.svg)
+![Headstone Image](image_2479.jpg)
   
 # Final Milestone
 
@@ -127,3 +125,4 @@ void loop() {
 
 # Other Resources/Examples
 - [Original Portfolio](https://projects.bluestampengineering.com/student-projects/terry-w/)
+- [Collection of other 2019 student portfolios](https://projects.bluestampengineering.com/2020-students/2019-students/)

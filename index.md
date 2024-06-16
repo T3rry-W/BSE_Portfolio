@@ -48,6 +48,7 @@ void loop() {
 
 }
 ```
+<!--
 
 # Bill of Materials
 | **Part** | **Note** | **Price** | **Link** |
@@ -60,6 +61,9 @@ void loop() {
 | Arduino Nano | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 | Button | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 | Battery (x2) | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+-->
+# Bill of Materials
+BOM commented out to see if it breaks the bottom one (stray character somewhere causing an error?)
 
 # Other Resources/Examples
 - [My GitHub with a few schematics from 2019](https://github.com/T3rry-W/BSE2019)

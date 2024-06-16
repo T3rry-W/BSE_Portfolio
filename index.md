@@ -7,45 +7,26 @@ The IR Line Following Car is a RC car retrofitted with two IR sensors to detect 
 |:--:|:--:|:--:|:--:|
 | Terry W | Bellarmine College Preparatory | Mechanical Engineering and Computer Science | Rising Sophomore
 
-![Headstone Image](image_2479.jpg)
+![Headstone Image](img_2479.jpg)
   
 # Final Milestone
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZLZ4DCxbuR8?si=dkZ0WlbfLeV8Oz4e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+For my third milestone, I decided to make a remote control for my car. A lot of my time and effort was spent on learning/figuring out how to make the two NRFs communicate between each other, and trying to solder all my connections.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
-
-
+My remote control mode is made up of an Arduino Nano, two NRFs, and two joysticks. The two joysticks are soldered to the Nano, and to one nRF. The other nRF is on my car, wired to my Arduino Uno. The two joysticks provide analog data through two potentiometers, one on the x-axis, and one on the y-axis.
 
 # Second Milestone
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iO6ywPNrVGQ?si=Kn5Re6fvSySsbivz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+For my second milestone, I decided that I would get the line following to work. I spent a bit of time figuring what method I would use. I did eventually  figure it out, but ran into a second challenge, fine tuning my car’s movement. My car has a very wide turning radius, so I had to make many trial runs, and determine the appropriate speed for the car.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
+For my line following mode, I used two infrared (IR) sensors. The two IR sensors are mounted on the bottom of my car. The two sensors detect the edge of the black line it follows, and uses a method known as edge detection. If the edge of the line is detected, the car moves/turns in that specific direction.
 
 # First Milestone
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KiSpSr8FIZQ?si=0R3M1hDOsGmBkLUI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-For your first milestone, describe what your project is and how you plan to build it. You can include:
-- An explanation about the different components of your project and how they will all integrate together
-- Technical progress you've made so far
-- Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project
+For my first milestone, I decided that gaining control of both motors would be adequate. I began by removing all of the components from the car except for the stock PCB, the motors, and the drive base. I then began analyzing my PCB, and determining whether or not it would be essential to my project. After some planning, I concluded that I would not need the PCB. I went ahead and hot glued my motor driver (SparkFun L928N) onto my drive base, and began wiring some motors. After determining the proper connections needed, I stripped, tinned, and connected my motor wires to the motor driver. I then attached jumper cables from the motor driver to the Arduino, as well as jumper cables for power. The biggest challenge I faced during my first milestone was perfecting my steering mechanism. The steering was driven by a DC motor, which I found impractical. I did a lot of testing with the motor and my code, to determine the exact speed and timing needed to turn my car. In the end, after a few days of testing, I finally found the appropriate timing and speed for my motor.
 
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 

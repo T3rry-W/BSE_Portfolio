@@ -64,6 +64,9 @@ void loop() {
 -->
 # Bill of Materials
 BOM commented out to see if it breaks the bottom one (stray character somewhere causing an error?)
+| **Part** | **Note** | **Price** | **Link** |
+|:--:|:--:|:--:|:--:|
+| RC Jeep | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 
 # Other Resources/Examples
 - [My GitHub with a few schematics from 2019](https://github.com/T3rry-W/BSE2019)

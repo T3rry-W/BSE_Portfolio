@@ -1,7 +1,7 @@
 # IR Line Following Car
 The IR Line Following Car is a RC car retrofitted with two IR sensors to detect and follow a line. The car is also implemented with various modes such as a regular remote control mode and an obstacle avoidance mode. 
 
-6/15/2024: With the BlueStamp portfolios being on GitHub pages now (which are easier to edit compared to the previous use of WordPress), I remade my portfolio on here. Original can be found here [here](https://projects.bluestampengineering.com/student-projects/terry-w/). Some minor tweaks/additions were made but most of it has been copied and pasted. Some formatting inconsistencies exist because the content back in 2019 was different from now.
+6/15/2024: With the BlueStamp portfolios being on GitHub pages now (which are easier to edit compared to the previous use of WordPress), I remade my portfolio on here. Original can be found here [here](https://projects.bluestampengineering.com/student-projects/terry-w/). Some minor tweaks/additions were made but most of it has been copied and pasted. Some formatting inconsistencies exist because the content back in 2019 was different from now. I like how WordPress provides galleries (seems like they can be added too on GitHub pages but more work - [example](https://github.com/opieters/jekyll-image-gallery-example/blob/gh-pages/README.md)). Too lazy to make lots of other changes such as links, may add in the future when I desire it. Am also attempting to find the code somewhere in my storage drives.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
@@ -29,20 +29,17 @@ For my line following mode, I used two infrared (IR) sensors. The two IR sensors
 For my first milestone, I decided that gaining control of both motors would be adequate. I began by removing all of the components from the car except for the stock PCB, the motors, and the drive base. I then began analyzing my PCB, and determining whether or not it would be essential to my project. After some planning, I concluded that I would not need the PCB. I went ahead and hot glued my motor driver (SparkFun L928N) onto my drive base, and began wiring some motors. After determining the proper connections needed, I stripped, tinned, and connected my motor wires to the motor driver. I then attached jumper cables from the motor driver to the Arduino, as well as jumper cables for power. The biggest challenge I faced during my first milestone was perfecting my steering mechanism. The steering was driven by a DC motor, which I found impractical. I did a lot of testing with the motor and my code, to determine the exact speed and timing needed to turn my car. In the end, after a few days of testing, I finally found the appropriate timing and speed for my motor.
 
 # Schematics 
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
+![Car Schematic](Terry's Car_bb.png)
+![Controller Schematic](Terry Controller_bb.png)
 
 # Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
-
 ```python
 void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600);
-  Serial.println("Hello World!");
+  // make stuff happen
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  // make more stuff happen
 
 }
 ```
@@ -73,20 +70,16 @@ My starter project is the Temperature Sensor Display. The temperature sensor dis
 The entire project consists of the following components: an Arduino Uno, a mini breadboard, jumper wires, a potentiometer, a temperature sensor, and a LCD (liquid crystal display). The core component of the entire project is the temperature sensor. The sensor works by changing its voltage output, proportionally to the change in temperature.  The Arduino then reads the analog signal, and through a series of equations, converts it into a digital signal, and displays it on the LCD.
 
 # Schematics 
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
+![https://projects.bluestampengineering.com/wp-content/uploads/2019/06/img_2470-1024x768.jpg](img_2470.jpg)
 
 # Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
-
 ```python
 void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600);
-  Serial.println("Hello World!");
+  // easy
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  // somewhere on the internet
 
 }
 ```

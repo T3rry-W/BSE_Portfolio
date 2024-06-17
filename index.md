@@ -33,9 +33,12 @@ For my line following mode, I used two infrared (IR) sensors. The two IR sensors
 
 For my first milestone, I decided that gaining control of both motors would be adequate. I began by removing all of the components from the car except for the stock PCB, the motors, and the drive base. I then began analyzing my PCB, and determining whether or not it would be essential to my project. After some planning, I concluded that I would not need the PCB. I went ahead and hot glued my motor driver (SparkFun L928N) onto my drive base, and began wiring some motors. After determining the proper connections needed, I stripped, tinned, and connected my motor wires to the motor driver. I then attached jumper cables from the motor driver to the Arduino, as well as jumper cables for power. The biggest challenge I faced during my first milestone was perfecting my steering mechanism. The steering was driven by a DC motor, which I found impractical. I did a lot of testing with the motor and my code, to determine the exact speed and timing needed to turn my car. In the end, after a few days of testing, I finally found the appropriate timing and speed for my motor.
 
+<!---
+
 # Schematics 
 ![Car Schematic](Terry's Car_bb.png)
 ![Controller Schematic](Terry Controller_bb.png)
+-->
 
 # Code
 ```python
@@ -48,7 +51,6 @@ void loop() {
 
 }
 ```
-<!--
 
 # Bill of Materials
 | **Part** | **Note** | **Price** | **Link** |
@@ -61,12 +63,6 @@ void loop() {
 | Arduino Nano | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 | Button | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 | Battery (x2) | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
--->
-# Bill of Materials
-BOM commented out to see if it breaks the bottom one (stray character somewhere causing an error?)
-| **Part** | **Note** | **Price** | **Link** |
-|:--:|:--:|:--:|:--:|
-| RC Jeep | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 
 # Other Resources/Examples
 - [My GitHub with a few schematics from 2019](https://github.com/T3rry-W/BSE2019)

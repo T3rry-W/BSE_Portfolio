@@ -81,7 +81,10 @@ The entire project consists of the following components: an Arduino Uno, a mini 
 # Schematics 
 ![https://projects.bluestampengineering.com/wp-content/uploads/2019/06/img_2470-1024x768.jpg](img_2470.jpg)
 
+<details>Collapse Test
+
 # Code
+  
 ```python
 void setup() {
   // easy
@@ -92,6 +95,7 @@ void loop() {
 
 }
 ```
+</details>
 
 # Bill of Materials
 

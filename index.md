@@ -85,6 +85,8 @@ The entire project consists of the following components: an Arduino Uno, a mini 
 
 <summary> Test Code </summary>
 
+# Code
+
 ```python
 void setup() {
   // easy

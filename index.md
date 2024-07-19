@@ -25,6 +25,9 @@ For my third milestone, I decided to make a remote control for my car. A lot of 
 
 My remote control mode is made up of an Arduino Nano, two NRFs, and two joysticks. The two joysticks are soldered to the Nano, and to one nRF. The other nRF is on my car, wired to my Arduino Uno. The two joysticks provide analog data through two potentiometers, one on the x-axis, and one on the y-axis.
 
+# Links to Files
+- [File One](https://github.com/T3rry-W/BSE_Portfolio/blob/53a55a9d29ed75be92513add9d9fca2abf99bd07/Terry%20Controller_bb.png)
+
 # Second Milestone
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iO6ywPNrVGQ?si=Kn5Re6fvSySsbivz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
